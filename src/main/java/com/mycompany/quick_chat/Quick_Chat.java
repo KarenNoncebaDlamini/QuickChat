@@ -49,7 +49,7 @@ class Login {
         }
     }
     
-    void userRegister() {
+     void userRegister {
         Scanner input = new Scanner(System.in);
         System.out.println("===Register===");
         
