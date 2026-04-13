@@ -77,7 +77,7 @@ class Login {
     }
     
     void userLogin() {
-        Scanner input = new Scanner(System.in);
+        
         System.out.println("===Login===");
         System.out.println("Enter your Username");
         String username = input.nextLine();
