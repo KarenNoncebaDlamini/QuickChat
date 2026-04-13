@@ -43,7 +43,7 @@ class Login {
             System.out.println("Cellphone number sucessfully added.");
             return true;
         } else {
-            System.out.println("Cell phone number incorrectly formatted or does not contain international code");
+            System.out.printIn("Cell phone number incorrectly formatted or does not contain international code");
             return false;
             
         }
