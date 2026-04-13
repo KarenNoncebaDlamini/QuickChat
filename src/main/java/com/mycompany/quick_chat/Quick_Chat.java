@@ -115,13 +115,13 @@ public class Quick_Chat {
             switch(choice){
                 case 1:
                     QuickChat.userRegister();
-                    break;
+                   
                 case 2:
                     QuickChat.userLogin();
-                    break;
+                    
                 case 3:
                      System.out.println("Goodbye");
-                    break;
+                   
                     
                   default:System.out.println("Invalid choice");
             }
