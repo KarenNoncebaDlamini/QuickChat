@@ -28,7 +28,7 @@ class Login {
         }
     }
     
-    boolean checkPassword(string password) {
+    boolean checkPassword(String password) {
         if (password.length() >= 8 && password.chars().anyMatch(c -> Character.isUpperCase(c)) && password.chars().anyMatch(c -> Character.isDigit(c)) && password.matches(".*[!@#$%^&*()].*")) {
             System.out.println("Password successfuly captured");
             return true;
